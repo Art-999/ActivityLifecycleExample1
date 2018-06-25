@@ -12,30 +12,36 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".TimeActivity">
+        <activity
+            android:name=".SecondActivity"
+            android:label="Second Activity">
+
+        </activity>
+        <activity
+            android:name=".TimeActivity"
+            android:label="Time">
             <intent-filter>
                 <action android:name="com.artur.showTime" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DateActivity" android:label="Date basic">
-
+        <activity
+            android:name=".DateActivity"
+            android:label="Date basic">
             <intent-filter>
                 <action android:name="com.artur.showDate" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DataActivitySecond" android:label="Date extended">
+        <activity
+            android:name=".DataActivitySecond"
+            android:label="Date extended">
             <intent-filter>
-                <action android:name="com.artur.showDate"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.artur.showDate" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

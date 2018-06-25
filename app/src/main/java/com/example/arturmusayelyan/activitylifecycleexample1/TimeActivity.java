@@ -9,6 +9,8 @@ import java.sql.Date;
 import java.text.SimpleDateFormat;
 
 public class TimeActivity extends AppCompatActivity {
+    //activityn hamakargi koxmic gtnvum e intent-filter-i mijocov
+
     private TextView timeShow;
 
     @Override
